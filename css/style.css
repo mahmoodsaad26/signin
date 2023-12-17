@@ -1,0 +1,39 @@
+body{
+    background-color: #24353F;
+}
+
+.main{
+    background-color: tan;
+    width: 70%;
+    background-color: #24353F;
+    box-shadow: -5px 2px  60px -10px rgba(0, 0, 0, 1);
+}
+.main h1{
+    color: #17A2B8;
+}
+.form-group{
+    width: 80%;
+}
+.main .btn:hover{
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+    color: white;
+}
+.main .btn{
+   color: #17A2B8;
+    border-color: #17A2B8;
+    width: 80%;
+
+}
+.main p a{
+    text-decoration: none;
+}
+.main p a:hover{
+    text-decoration: underline;
+}
+.message{
+    background-color: tan;
+    width: 70%;
+    background-color: #24353F;
+    box-shadow: -5px 2px  60px -10px rgba(0, 0, 0, 1);
+}

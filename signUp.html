@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <div class="container ">
+        <div class=" mx-auto main mt-5 text-center pt-4 ">
+            <h1 class="mt-4">Smart Login System</h1>
+            <div class="form-group mt-5 mb-3 mx-auto ">
+                <input type="text" class="form-control " id="name" placeholder="Enter Your name">
+                <p class="text-danger text-center d-none" id="nameWarning">name must statr with Character and not have special characters </p>
+            </div>
+            <div class="form-group mt-3 mb-3 mx-auto ">
+                <input type="text" class="form-control " id="email" placeholder="Enter Your email">
+                <p class="text-danger text-center d-none" id="emailWarning">invalid email </p>
+            </div>
+            <div class="form-group  mb-3 mx-auto ">
+                <input type="password" class="form-control " id="password" placeholder="Enter Your password">
+                <p class="text-danger text-center d-none" id="passwordWarning">password must be 8-16 character </p>
+            </div>
+            <p class="text-danger d-none" id="wrongName">invalid user name or email</p>
+            <p class="text-danger d-none" id="existEmail">email is already exists</p>
+            <p class="text-success d-none" id="rightName" >Sucsses</p>
+            <button class="btn btn-outline-primary mb-3" id="signupBtn">Sign Up</button>
+            <p class="pb-5 text-white">have an account? <a href="index.html" class="text-white">Sign in</a></p>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <scrip src="js/bootstrap.bundle.js"></script>
+        <script src="js/signUp.js"></script>
+</body>
+
+</html>
